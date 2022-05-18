@@ -1,0 +1,443 @@
+1.Why Python?applications of Python?What are the key features of Python?
+Python is commonly used for developing websites and software, task automation, data analysis, and data visualization.
+ Since it's relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists,
+ for a variety of everyday tasks, like organizing finances.
+ Python is free and simple to learn.
+ Its primary features are that it is high-level, dynamically typed and interpreted.
+ This makes debugging of errors easy and encourages the rapid development of application prototypes, marking itself as the language to code with.
+ Python was developed in 1989 by Guido Van Rossum and emphasizes on the DRY (Don’t Repeat Yourself) principle and readability.
+APPLICATIONS:
+Python supports cross-platform operating systems which makes building applications with it all the more convenient.
+Some of the globally known applications such as YouTube, BitTorrent, DropBox, etc.
+ use Python to achieve their functionality.
+1. Web Development
+Python can be used to make web-applications at a rapid rate.
+Why is that? It is because of the frameworks Python uses to create these applications.
+There is common-backend logic that goes into making these frameworks and a number of libraries that can help integrate protocols such as HTTPS, FTP, SSL etc. and
+even help in the processing of JSON, XML, E-Mail and so much more.
+Some of the most well-known frameworks are Django, Flask, Pyramid. Why use a framework? The security, scalability, convenience that they provide is commendable if we compare it to starting the development of a website from scratch.
+
+2. Game Development
+Python is also used in the development of interactive games. There are libraries such as PySoy which is a 3D game engine supporting Python 3, PyGame which provides functionality and a library for game development. Games such as Civilization-IV, Disney’s Toontown Online, Vega Strike etc. have been built using Python.
+
+3. Machine Learning and Artificial Intelligence
+Machine Learning and Artificial Intelligence are the talks of the town as they yield the most promising careers for the future. We make the computer learn based on past experiences through the data stored or better yet, create algorithms which makes the computer learn by itself. The programming language that mostly everyone chooses? It’s Python. Why? Support for these domains with the libraries that exist already such as Pandas, Scikit-Learn, NumPy and so many more.
+
+4. Data Science and Data Visualization
+Data is money if you know how to extract relevant information which can help you take calculated risks and increase profits. You study the data you have, perform operations and extract the information required. Libraries such as Pandas, NumPy help you in extracting information.
+
+5. Desktop GUI
+We use Python to program desktop applications. It provides the Tkinter library that can be used to develop user interfaces. There are some other useful toolkits such as the wxWidgets, Kivy, PYQT that can be used to create applications on several platforms.
+
+6. Web Scraping Applications
+Python is a savior when it comes to pull a large amount of data from websites which can then be helpful in various real-world processes such as price comparison, job listings, research and development and much more.
+
+Features in Python
+There are many features in Python, some of which are discussed below –
+
+1. Easy to code:
+Python is a high-level programming language. Python is very easy to learn the language as compared to other languages like C, C#, Javascript, Java, etc. It is very easy to code in python language and anybody can learn python basics in a few hours or days. It is also a developer-friendly language.
+
+2. Free and Open Source:
+Python language is freely available at the official website and you can download it from the given download link below click on the Download Python keyword.
+Download Python
+Since it is open-source, this means that source code is also available to the public. So you can download it as, use it as well as share it.
+
+3. Object-Oriented Language:
+One of the key features of python is Object-Oriented programming. Python supports object-oriented language and concepts of classes, objects encapsulation, etc.
+
+4. GUI Programming Support:
+Graphical User interfaces can be made using a module such as PyQt5, PyQt4, wxPython, or Tk in python.
+PyQt5 is the most popular option for creating graphical apps with Python.
+
+5. High-Level Language:
+Python is a high-level language. When we write programs in python, we do not need to remember the system architecture, nor do we need to manage the memory.
+
+6. Extensible feature:
+Python is a Extensible language. We can write us some Python code into C or C++ language and also we can compile that code in C/C++ language.
+
+7. Python is Portable language:
+Python language is also a portable language. For example, if we have python code for windows and if we want to run this code on other platforms such as Linux, Unix, and Mac then we do not need to change it, we can run this code on any platform.
+
+8. Python is Integrated language:
+Python is also an Integrated language because we can easily integrated python with other languages like c, c++, etc.
+
+9. Interpreted Language:
+Python is an Interpreted Language because Python code is executed line by line at a time. like other languages C, C++, Java, etc. there is no need to compile python code this makes it easier to debug our code. The source code of python is converted into an immediate form called bytecode.
+
+10. Large Standard Library
+Python has a large standard library which provides a rich set of module and functions so you do not have to write your own code for every single thing. There are many libraries present in python for such as regular expressions, unit-testing, web browsers, etc.
+
+11. Dynamically Typed Language:
+Python is a dynamically-typed language. That means the type (for example- int, double, long, etc.) for a variable is decided at run time not in advance because of this feature we don’t need to specify the type of variable.
+
+
+2.Python is an interpreted language explain? How is Python an interpreted language?How do we interpret Python?
+Python is an interpreted language, which means the source code of a Python program is converted into bytecode that
+is then executed by the Python virtual machine.
+Python is different from major compiled languages, such as C and C + +, as Python code is not required to be built
+and linked like code for these languages. This distinction makes for two important points:
+
+•
+Python code is fast to develop: As the code is not needed to be compiled and built,
+Python code can be readily changed and executed. This makes for a fast development cycle.
+
+•
+Python code is not as fast in execution: Since the code is not directly compiled and executed and an additional layer
+of the Python virtual machine is responsible for execution, Python code runs a little slow as compared to conventional languages like C, C + +, etc.
+
+Explain how python is interpreted.
+- Python program runs directly from the source code.
+
+- Each time Python programs are executed code is required.
+
+- Python converts source code written by the programmer into intermediate language which is again translated into the native language / machine language that is executed. So Python is an Interpreted language.
+
+- It is processed at runtime by the interpreter.
+
+- The program need not be compiled before its execution.
+
+- It is similar to PERL and PHP.
+
+- Python is also interactive where it can prompt and interact with the interpreter directly to write the programs.
+
+- It supports the object-oriented style of the technique which encapsulates the code within the objects.
+
+3.What do you mean by Python literals?
+Literals in Python is defined as the raw data assigned to variables or constants while programming.
+ We mainly have five types of literals which includes string literals, numeric literals, boolean literals,
+ literal collections and a special literal None.
+
+“A constant can be defined as an entity that has a fixed value or an entity whose value does not vary.”
+
+Types of Literals in Python
+Python literals are of several types, and their usage is also pretty varied. So let’s check them out one by one.
+
+There are five types of literal in Python, which are as follows-
+
+String Literals
+Numeric Literals
+Boolean Literals
+Literal Collections
+Special Literals
+Five types of literals in Python
+
+And these five types again have certain subtypes, which we will discuss in-depth and see their implementation in Python.
+
+1. String Literals in Python
+Let’s discuss string literals in Python!
+
+Creating a string literal in Python is really easy- enclose the text or the group of characters in single, double or triple quotes. Using triple quotes also allows us to write multi-line strings.
+
+Hence, we can say that there are two types of string literals in Python-
+
+Single-line String
+String literals that are enclosed within single quotes (‘’) are known as single-line strings.
+
+Now, let’s look at an example to understand how they work-
+
+#string literals
+#single line literal
+single_quotes_string='Scaler Academy'
+double_quotes_string="Hello World"
+print(single_quotes_string)
+print(double_quotes_string)
+We have successfully created a string using single quotes and double quotes in the above code snippet. The output of it is-
+
+Scaler Academy
+Hello World
+Multi-line String
+A collection of characters or a string that goes on for multiple lines is a multi-line string.
+
+These kinds of strings are again implemented in two types-
+
+a) Adding backslash at the end of every line-
+
+We can enable multi-line strings in Python by adding a backslash at the end of every line.
+
+Let’s see how it's done-
+
+#string literals
+#multi line literal
+str="Welcome\
+to\
+Scaler\
+Academy"
+print(str)
+The output of this will be-
+
+WelcometoScalerAcademy
+b) Using triple quotes-
+
+Triple quotes at the beginning and end of the string literally will allow us to create a multi-line string in Python easily!
+
+Let’s see the code for it-
+
+#string literals
+#multi line literal
+str="""Welcome
+to
+Scaler
+Academy"""
+print(str)
+The output will be-
+
+Welcome
+to
+Scaler
+Academy
+2. Numeric Literals in Python
+Numerical literals in Python are those literals that contain digits only and are immutable.
+
+Numeric Literals in Python
+
+They are of four types-
+
+Integer
+The numerical literals that are zero, positive or negative natural numbers and contain no decimal points are integers.
+
+The different types of integers are-
+
+Decimal- It contains digits from 0 to 9. The base for decimal values is 10.
+Binary- It contains only two digits- 0 and 1. The base for binary values is 2 and prefixed with “0b”.
+Octal- It contains the digits from 0 to 7. The base for octal values is 8. In Python, such values are prefixed with “0o”.
+Hexadecimal- It contains digits from 0 to 9 and alphabets from A to F.
+Now, let’s see some examples-
+
+# integer literal
+#positive whole numbers
+x = 2586
+#negative whole numbers
+y = -9856
+# binary literal
+a = 0b10101
+# decimal literal
+b = 505
+# octal literal
+c = 0o350
+# hexadecimal literal
+d = 0x12b
+print (x,y)
+print(a, b, c, d)
+Check out the output for this-
+
+2586 -9856
+21 505 232 299
+Float
+The floating-point literals are also known as real literals. Unlike integers, these contain decimal points.
+
+Float literals are primarily of two types-
+
+A. Fractional- Fractional literals contain both whole numbers and decimal points.
+
+An example of fractional literals will look like this-
+
+Example
+
+print(78.256)
+Output
+
+78.256
+B. Exponential- Exponential literals in Python are represented in the powers of 10. The power of 10 is represented by e or E. An exponential literal has two parts- the mantissa and the exponent.
+
+Note:
+
+Mantissa-The digits before the symbol E in an exponential literal is known as the mantissa. In computing, it denotes the significant digits of the floating-point numbers.
+Exponent- The digits after the symbol E in an exponential literal are the exponent. It denotes where the decimal point should be placed.
+Let’s look at an example-
+
+Example
+
+print(2.537E5)
+Output
+
+253700.0
+Complex
+Complex literals are represented by A+Bj. Over here, A is the real part. And the entire B part, along with j, is the imaginary or complex part. j here represents the square root of -1, which is nothing but the iota or i we use in Mathematics.
+
+# complex literal
+a=7 + 8j
+b=5j
+print(a)
+print(b)
+The output of the code snippet will be-
+
+(7+8j)
+5j
+Long
+Long literals were nothing but integers with unlimited length. From Python 2.2 and onwards, the integers that used to overflow were automatically converted into long ints. Since Python 3.0, the long literal has been dropped. What was the long data type in Python 2 is now the standard int type in Python 3.
+
+Long literals used to be represented with a suffix- l or L. The usage of L was strongly recommended as l looked a lot like the digit 1.
+
+Check out the following example to see how it was denoted-
+
+Example
+
+#usage long literal before it was depreciated
+x=037467L
+print(x)
+Note– The code snippet was executed using Python 1.8. Output
+
+Success #stdin
+
+Success #stdin #stdout 0.01s 7320KB
+16183
+3. Boolean Literals in Python
+Boolean literals in Python are pretty straight-forward and have only two values-
+
+True- True represents the value 1.
+False-False represents the value 0.
+Let’s see an example-
+
+#boolean literals
+x = (1 == 1)
+y = (7 == False)
+print("x is", x)
+print("y is", y)
+The expected output is-
+
+x is True
+y is False
+We can see that we used boolean literals for comparison and based on the conditions, we received the outputs True and False, respectively.
+
+4. Special Literals in Python
+Python literals have one special literal known as None. This literal in Python is used to signify that a particular field is not created.
+
+Python will print None as output when we print the variable with no value assigned to it. None is also used for end of lists in Python.
+
+Example
+
+#special literals
+val=None
+print(val)
+Output
+
+None
+5. Literal Collections in Python
+If we wish to work with more than one value, then we can go for literal collections in Python. Literal collections in Python are of four types-
+
+List Literals
+Lists are a collection of data declared using the square brackets([]), and commas separate the elements of the list (,). This data can be of different types. Another important thing to know about lists is that they are mutable.
+
+Now let’s see an implementation-
+
+# list literals
+numbers = [10, 20, 30, 40, 50]
+names = ['John', 'Jake', 'Jason', 25]
+print(numbers)
+print(names)
+Output
+
+[10, 20, 30, 40, 50]
+['John', 'Jake', 'Jason', 25]
+Tuple Literals
+The literals that are declared using round brackets and can hold any data type are tuples. Commas separate the elements of tuples. However, unlike lists, tuples are immutable.
+
+Let’s check out a code snippet on tuples-
+
+# tuple literals
+even_numbers = (2, 4, 6, 8)
+vowels=('a','e','i','o','u')
+print(even_numbers)
+print(vowels)
+Output
+
+(2, 4, 6, 8)
+('a', 'e', 'i', 'o', 'u')
+Dictionary Literals
+Dictionary is a collection of data that stores value in a key-value format. These are enclosed in curly brackets and separated by commas. Dictionaries are mutable and can also contain different types of data.
+
+Check out the below code snippet that shows how a dictionary works-
+
+# dictionary literals
+my_dict = {'a': 'apple', 'b': 'bat', 'c': 'car'}
+print(my_dict)
+Output
+
+{'a': 'apple', 'b': 'bat', 'c': 'car'}
+Set Literals
+Set literals are a collection of unordered data that cannot be modified. It is enclosed within curly brackets and separated by commas.
+
+Let’s see the code for this-
+
+#set literals
+vowels = {'a', 'e', 'i', 'o', 'u'}
+print(vowels)
+Output
+
+{'o', 'e', 'a', 'u', 'i'}
+Conclusion
+Now that we have reached the end of the article, you can positively say you know what literals in Python are!
+
+Along with that, you also got to learn about-
+
+The different types of literals.
+How to use Python literals.
+In-depth knowledge about the nature of Python literals.
+So wait no more and get coding!
+
+
+4.What type of language is python?
+There are four main Python coding styles: imperative, functional, object-oriented, and procedural.
+(Some people combine imperative and functional coding styles while others view them as completely separate styles.) You may or may not agree that all four forms are valid or even useful—but nevertheless Python makes them all available. Let’s take a look at the pros and cons of each approach as well as some examples.
+Functional: Every statement is treated as a mathematical equation and any forms of state or mutable data are avoided. The main advantage of this approach is that it lends itself well to parallel processing because there is no state to consider. Many developers prefer this coding style for recursion and for lambda calculus. (Note that Python’s implementation of functional programming deviates from the standard—read, is impure— because it’s possible to maintain state and create side effects if you’re not careful. If you need a pure functional programming implementation, Haskell may be a better choice.)
+Imperative: Computation is performed as a direct change to program state. This style is especially useful when manipulating data structures and produces elegant yet simple code. Python fully implements this paradigm.
+Object-oriented: Relies on data fields that are treated as objects and manipulated only through prescribed methods. Python doesn’t fully support this paradigm because it can’t implement features such as data hiding (encapsulation), which many believe is a primary requirement of the object-oriented programming paradigm. This coding style also favors code reuse.
+Procedural: Tasks are treated as step-by-step iterations where common tasks are placed in functions that are called as needed. This coding style favors iteration, sequencing, selection, and modularization. Python excels in implementing this particular paradigm.
+
+
+5.What is namespace in Python?
+Namespaces in Python. A namespace is a collection of currently defined symbolic names along with information about the object that each name references.
+You can think of a namespace as a dictionary in which the keys are the object names and the values are the objects themselves.
+
+6.What are local variables and global variables in Python?
+Global variables are those which are not defined inside any function and have a global scope whereas local variables are those which are defined inside a function
+ and its scope is limited to that function only. In other words, we can say that local variables are accessible only inside the function in which it was initialized whereas the global variables are accessible throughout the program and inside every function.
+
+Local Variables
+Local variables are those which are initialized inside a function and belongs only to that particular function.
+It cannot be accessed anywhere outside the function. Let’s see how to create a local variable.
+
+
+7.List the common built-in datatypes in Python?
+Binary Types: memoryview, bytearray, bytes
+Boolean Type: bool
+Set Types: frozenset, set
+Mapping Type: dict
+Sequence Types: range, tuple, list
+Numeric Types: complex, float, int
+Text Type: str
+
+8.Explain all the keywords in Python?
+Value Keywords: True, False, None
+Operator Keywords: and, or, not, in, is
+Control Flow Keywords: if, elif, else
+Iteration Keywords: for, while, break, continue, else
+Structure Keywords: def, class, with, as, pass, lambda
+Returning Keywords: return, yield
+Import Keywords: import, from, as
+Exception-Handling Keywords: try, except, raise, finally, else, assert
+Asynchronous Programming Keywords: async, await
+Variable Handling Keywords: del, global, nonlocal
+9.What are comments and how can you add comments in Python?
+-->There are two types of comments in python
+1.Single line comment
+eg:#Python is a flexible
+2.Multi line comment
+...> It is mentioned with single or double quotes
+'''
+Python is a flexible
+'''
+10.How to check Python Version in CMD?
+python --version
+11. How is memory managed in Python?
+The Python memory manager manages chunks of memory called “Blocks”.
+A collection of blocks of the same size makes up the “Pool”.
+Pools are created on Arenas, chunks of 256kB memory allocated on heap=64 pools.
+If the objects get destroyed, the memory manager fills this space with a new object of the same size.
+
+12. how the variable assignment happens in python a=10
+In Python, variables need not be declared or defined in advance,
+ as is the case in many other programming languages.
+ To create a variable, you just assign it a value and then start using it.
+Assignment is done with a single equals sign ( = )
